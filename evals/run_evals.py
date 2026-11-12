@@ -12,6 +12,9 @@ from scenarios import ScenarioTools
 from grading import grade_case, summarize, bonus_points
 from bonus.tools import BonusTools
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def run_case(case, args):
     try:
